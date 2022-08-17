@@ -1,0 +1,217 @@
+/* RESET */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* GLOBAL */
+html {
+  background-color: #e4fafa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+body{
+  max-width: 1020px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-top: 1rem;
+}
+
+h2 {
+  font-size: 2rem;
+text-align: center;
+  padding: 1.5rem 0;
+}
+
+p {
+  margin-top: 1rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+/* HERO */
+.header {
+  background-image: url(https://placekitten.com/400/200);
+  display: block;
+  padding: 5em;
+  text-align: center;
+}
+
+.head_wrap {
+  background-color: rgba(255, 235, 255, 0.8);
+  margin: auto;
+  padding-top: 1rem;
+}
+
+/* FACTS */
+
+.kitten_facts{  
+  margin: auto;
+}
+
+.kitten_facts h2{
+  text-decoration: dotted underline rgb(8, 76, 81);
+  text-underline-offset: .5rem;
+}
+
+.fact_list{
+  /* background-color: orange; */
+  max-width: 30rem;
+  margin: auto;
+}
+
+.kitten_facts ul{
+  margin-left: 2rem;
+  list-style-type: decimal;
+  line-height: 3rem;
+}
+
+.kitten_facts li{
+  font-size: 1.2rem; 
+}
+
+/* PICTURES */
+.images{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+
+}
+img{
+  width: 25vw;
+  height: 20vw;
+  object-fit: cover;
+}
